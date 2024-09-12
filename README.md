@@ -34,7 +34,9 @@ Este proyecto es el minicurso de Procesamiento de Imágenes, el cual se realizó
 
 ## Descripción
 
-En construcción...
+El minicurso está dividido en dos partes. En la primera parte es una seción teórica donde se presentan los conceptos básicos de las imágenes digitales y las operaciones básicas que se pueden realizar con ellas, además, se hace una introducción a las redes neuronales convolucionales. En la segunda parte se presenta un ejemplo práctico de lo presentado en la primera parte, donde se entrena una red neuronal convolucional para clasificar imágenes.
+
+La presentación del minicurso se encuentra en la carpeta `Presentacion` y se puede abrir en el siguiente enlace: [Presentación](Presentacion/AnalisisImagenes.pdf). Por otro lado, el código del minicurso se encuentra en el archivo [`ProcesamientoImagenes.ipynb`](ProcesamientoImagenes.ipynb); adicionalmente, se tiene el documento para el estudiante en la carpeta en el archivo [`ProcesamientoImagenes-estudiante.ipynb`](ProcesamientoImagenes-estudiante.ipynb).
 
  
 ## Créditos
