@@ -1,0 +1,88 @@
+\documentclass[aspectratio=169]{beamer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Paquetes
+\input{formatoBeamerPUCE}
+\usepackage{tikz}
+
+\usetikzlibrary{arrows}
+\usetikzlibrary{matrix, positioning}
+\usetikzlibrary{calc}
+
+\usepackage{qrcode}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Datos
+\title{Procesamiento y Análisis de Imágenes}
+\author{Andrés Merino}
+\date{Septiembre 2024}
+\institute{Escuela de Ciencias Físicas y Matemática\\ Escuela de Verano de Aprendizaje Automático PUCE 2024}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Página de título
+
+\fondo{inicio}
+\begin{frame}[plain]
+    \vspace*{0.85cm}
+    \addtocounter{framenumber}{-1}
+    \hspace*{0.6cm}
+    \begin{minipage}[t]{\dimexpr\textwidth-1cm}
+        \titlepage
+    \end{minipage}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Página de índice 
+\fondo{blanco}
+\begin{frame}
+    \frametitle{Contendio}
+    \vspace*{-0.5cm}
+    
+    \tableofcontents
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Secciones
+% \include{Secciones/01Definiciones}
+% \include{Secciones/02Imagen}
+% \include{Secciones/03Convolucion}
+% \include{Secciones/04Redes}
+% \include{Secciones/05Arquitecturas}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Página final
+\fondo{final}
+\begin{frame}[plain]
+\begin{center}
+    \color{white}
+    
+    \vspace{1.5cm}
+    {\Huge\textbf{Gracias}}
+    \vspace{2mm}
+    
+\tikzset{
+  qrcode/.style = {line width = 2sp},
+  pixel on/.style = {azul},
+  pixel off/.style = {azul},
+}
+
+    \begin{tabular}{ccc}\color{azul}
+        \qrcode[hyperlink,height=2.5cm,version=5]{https://linktr.ee/aemerinot}
+        &\phantom{.\hspace{.5cm}.}&
+        \qrcode[hyperlink,height=2.5cm,version=5]{https://github.com/andres-merino/Presentacion-ChatGPT-AulaInvertida}
+        \\ \\
+        \LARGE \faLinkedin\hspace{5mm} \faGithub%\hspace{5mm} \aiOrcidSquare 
+        && 
+        Presentación
+    \end{tabular}
+
+    \vspace{2mm}
+    \textbf{Contacto:} aemerinot@puce.edu.ec
+\end{center}
+\end{frame}
+
+
+\end{document}
